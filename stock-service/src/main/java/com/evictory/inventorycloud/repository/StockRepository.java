@@ -1,7 +1,9 @@
 package com.evictory.inventorycloud.repository;
 
-//----- Sahan Part -----
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public class StockRepository {
+import com.evictory.inventorycloud.modal.Stock;
+
+public interface StockRepository extends JpaRepository<Stock, Integer>{
 
 }
